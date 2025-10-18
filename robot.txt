@@ -1,0 +1,486 @@
+# ===============================================
+# robots.txt for Farmer Group
+# Website: https://farmergroupaf.com/
+# Build by: Kaleemify (https://kaleemify.com/)
+# Contact: +93 78 772 7204
+# Agriculture Experts in Pakistan, Afghanistan & Syria
+# ===============================================
+
+User-agent: *
+Allow: /
+
+# ===============================================
+# SITEMAP LOCATIONS
+# ===============================================
+Sitemap: https://farmergroupaf.com/sitemap.xml
+
+# ===============================================
+# MAJOR SEARCH ENGINES - FULL ACCESS
+# ===============================================
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /fonts/
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /
+Allow: /images/
+Allow: /products/images/
+Allow: /blog/images/
+
+# Google Mobile
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+
+# Apple
+User-agent: Applebot
+Allow: /
+Crawl-delay: 1
+
+# ===============================================
+# AI & CHATBOTS - FULLY ALLOWED
+# ===============================================
+
+# OpenAI ChatGPT
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 2
+
+# OpenAI GPTBot
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 2
+
+# Common Crawl (AI Training)
+User-agent: CCBot
+Allow: /
+Crawl-delay: 2
+
+# Facebook AI
+User-agent: FacebookBot
+Allow: /
+Crawl-delay: 2
+
+# Amazon AI
+User-agent: Amazonbot
+Allow: /
+Crawl-delay: 2
+
+# Microsoft AI
+User-agent: MSNBot
+Allow: /
+Crawl-delay: 2
+
+# Apple AI
+User-agent: Applebot
+Allow: /
+Crawl-delay: 2
+
+# Twitter Bot
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 2
+
+# LinkedIn Bot
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 2
+
+# Pinterest
+User-agent: Pinterestbot
+Allow: /
+Crawl-delay: 2
+
+# ===============================================
+# ALLOWED DIRECTORIES & PATHS
+# ===============================================
+
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /fonts/
+Allow: /assets/
+Allow: /static/
+Allow: /public/
+Allow: /media/
+
+# Main Pages
+Allow: /about
+Allow: /products
+Allow: /divisions
+Allow: /blog
+Allow: /contact
+Allow: /services
+Allow: /projects
+Allow: /gallery
+
+# Product Categories
+Allow: /products/seeds
+Allow: /products/fertilizers
+Allow: /products/livestock
+Allow: /products/equipment
+Allow: /products/saplings
+
+# Division Pages
+Allow: /divisions/agriculture
+Allow: /divisions/horticulture
+Allow: /divisions/livestock
+Allow: /divisions/consultancy
+Allow: /divisions/nursery
+Allow: /divisions/greenhouse
+
+# Blog Categories
+Allow: /blog/farming-techniques
+Allow: /blog/seasonal-tips
+Allow: /blog/irrigation
+Allow: /blog/organic-farming
+Allow: /blog/livestock-care
+Allow: /blog/success-stories
+
+# Regional Pages
+Allow: /pakistan
+Allow: /afghanistan
+Allow: /syria
+Allow: /regional-offices
+
+# Language Versions
+Allow: /ur/
+Allow: /ps/
+Allow: /ar/
+Allow: /en/
+
+# ===============================================
+# SPECIFIC FILES TO ALLOW
+# ===============================================
+
+Allow: /favicon.ico
+Allow: /logo.png
+Allow: /hero.jpg
+Allow: /about.jpg
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# CSS Files
+Allow: /*.css$
+Allow: /*.css?*
+
+# JavaScript Files
+Allow: /*.js$
+Allow: /*.js?*
+
+# Image Files
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.ico$
+
+# Document Files
+Allow: /*.pdf$
+Allow: /*.doc$
+Allow: /*.docx$
+Allow: /*.xls$
+Allow: /*.xlsx$
+
+# Font Files
+Allow: /*.woff$
+Allow: /*.woff2$
+Allow: /*.ttf$
+Allow: /*.eot$
+
+
+# ===============================================
+# DISALLOWED PATHS (SECURITY & PRIVACY)
+# ===============================================
+
+# Admin Areas
+Disallow: /admin/
+Disallow: /administrator/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /dashboard/
+Disallow: /control-panel/
+
+# Private Directories
+Disallow: /private/
+Disallow: /secure/
+Disallow: /confidential/
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /backup/
+Disallow: /backups/
+Disallow: /old/
+
+# System Files
+Disallow: /cgi-bin/
+Disallow: /includes/
+Disallow: /config/
+Disallow: /logs/
+Disallow: /error_log
+
+# Development Files
+Disallow: /dev/
+Disallow: /development/
+Disallow: /test/
+Disallow: /testing/
+Disallow: /staging/
+
+# User Data
+Disallow: /users/
+Disallow: /members/
+Disallow: /accounts/
+Disallow: /profile/
+Disallow: /user-profile/
+
+# ===============================================
+# URL PARAMETERS TO IGNORE
+# ===============================================
+
+# Tracking Parameters
+Disallow: /*?utm_source=
+Disallow: /*?utm_medium=
+Disallow: /*?utm_campaign=
+Disallow: /*?utm_term=
+Disallow: /*?utm_content=
+Disallow: /*?fbclid=
+Disallow: /*?gclid=
+Disallow: /*?msclkid=
+Disallow: /*?yclid=
+Disallow: /*?__twitter_impression=
+
+# Session Parameters
+Disallow: /*?sessionid=
+Disallow: /*?sid=
+Disallow: /*?token=
+Disallow: /*?key=
+
+# Pagination & Sorting
+Disallow: /*?page=
+Disallow: /*?pagenum=
+Disallow: /*?offset=
+Disallow: /*?limit=
+Disallow: /*?sort=
+Disallow: /*?order=
+
+# Filter Parameters
+Disallow: /*?filter=
+Disallow: /*?category=
+Disallow: /*?tag=
+Disallow: /*?price=
+
+# ===============================================
+# CRAWL DELAY SETTINGS
+# ===============================================
+
+# Default crawl delay for all bots
+Crawl-delay: 1
+
+# Faster for major search engines
+User-agent: Googlebot
+Crawl-delay: 0.5
+
+User-agent: Bingbot
+Crawl-delay: 0.5
+
+# Slower for AI bots (more resource intensive)
+User-agent: ChatGPT-User
+Crawl-delay: 2
+
+User-agent: GPTBot
+Crawl-delay: 2
+
+User-agent: CCBot
+Crawl-delay: 2
+
+# ===============================================
+# SPECIFIC FILE EXTENSIONS TO BLOCK
+# ===============================================
+
+# Executable files
+Disallow: /*.exe$
+Disallow: /*.dll$
+Disallow: /*.bin$
+Disallow: /*.deb$
+Disallow: /*.rpm$
+
+# Backup files
+Disallow: /*.bak$
+Disallow: /*.backup$
+Disallow: /*.old$
+Disallow: /*.tmp$
+
+# Development files
+Disallow: /*.sql$
+Disallow: /*.log$
+Disallow: /*.env$
+Disallow: /*.config$
+
+# ===============================================
+# MULTI-LINGUAL SUPPORT
+# ===============================================
+
+# English (Primary)
+Allow: /en/
+Allow: /english/
+
+# Urdu
+Allow: /ur/
+Allow: /urdu/
+
+# Pashto
+Allow: /ps/
+Allow: /pashto/
+
+# Arabic
+Allow: /ar/
+Allow: /arabic/
+
+# ===============================================
+# REGIONAL TARGETING
+# ===============================================
+
+# Pakistan
+Allow: /pakistan/
+Allow: /pak/
+
+# Afghanistan
+Allow: /afghanistan/
+Allow: /af/
+
+# Syria
+Allow: /syria/
+Allow: /sy/
+
+# ===============================================
+# INDUSTRY-SPECIFIC ALLOWANCES
+# ===============================================
+
+# Agriculture Products
+Allow: /seeds/
+Allow: /fertilizers/
+Allow: /pesticides/
+Allow: /equipment/
+Allow: /tools/
+
+# Livestock
+Allow: /livestock/
+Allow: /cattle/
+Allow: /poultry/
+Allow: /dairy/
+Allow: /veterinary/
+
+# Horticulture
+Allow: /horticulture/
+Allow: /fruits/
+Allow: /vegetables/
+Allow: /flowers/
+Allow: /nursery/
+
+# Services
+Allow: /consulting/
+Allow: /training/
+Allow: /support/
+Allow: /maintenance/
+
+# ===============================================
+# SOCIAL MEDIA & EXTERNAL LINKS
+# ===============================================
+
+# Social media paths (if integrated)
+Allow: /social/
+Allow: /share/
+Allow: /like/
+Allow: /follow/
+
+# External resource loading
+Allow: /external/
+Allow: /api/
+Allow: /webhook/
+
+# ===============================================
+# PERFORMANCE & CACHING
+# ===============================================
+
+# Cache files
+Allow: /cache/
+Allow: /static-cache/
+
+# CDN paths
+Allow: /cdn/
+Allow: /assets-cdn/
+
+# ===============================================
+# ACCESSIBILITY FEATURES
+# ===============================================
+
+# Accessibility versions
+Allow: /accessible/
+Allow: /screen-reader/
+Allow: /high-contrast/
+
+# Print versions
+Allow: /print/
+Allow: /print-version/
+
+# ===============================================
+# LEGAL & COMPLIANCE
+# ===============================================
+
+# Legal pages
+Allow: /privacy-policy
+Allow: /terms-of-service
+Allow: /cookie-policy
+Allow: /disclaimer
+Allow: /legal
+
+# Compliance
+Allow: /gdpr
+Allow: /compliance
+Allow: /accessibility-statement
+
+# ===============================================
+# WEBSITE BUILDER CREDIT
+# ===============================================
+
+# Credit to Kaleemify - Website Developer
+# Built by: Kaleemify (https://kaleemify.com/)
+# Developer: Kaleemullah Zeeshan
+# Specializing in Agriculture Business Websites
+# Contact: https://kaleemify.com/contact
+
+# ===============================================
+# END OF ROBOTS.TXT
+# ===============================================
