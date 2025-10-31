@@ -17,6 +17,9 @@ Sitemap: https://farmergroupaf.com/sitemap.xml
 # ===============================================
 # MAJOR SEARCH ENGINES - FULL ACCESS
 # ===============================================
+# Google AdSense Crawler
+User-agent: Mediapartners-Google
+Allow: /
 
 # Google
 User-agent: Googlebot
@@ -483,4 +486,5 @@ Allow: /accessibility-statement
 
 # ===============================================
 # END OF ROBOTS.TXT
+
 # ===============================================
